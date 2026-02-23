@@ -11,6 +11,8 @@ setopt AUTO_CD              # 直接输入目录自动 cd
 setopt NO_BEEP              # 禁止提示音
 setopt PROMPT_SUBST         # 支持 prompt 中的命令替换
 
+export EDITOR=nvim
+
 # -------------------------------
 # 基础提示符
 # -------------------------------
