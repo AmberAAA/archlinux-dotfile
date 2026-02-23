@@ -34,6 +34,7 @@ alias la='ls -A'
 alias l='ls -CF'
 alias gs='git status'
 alias gd='git diff'
+alias gp="git push"
 alias gco='git checkout'
 alias lg="lazygit"
 
