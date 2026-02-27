@@ -67,7 +67,6 @@ fi
 
 
 export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -76,3 +75,5 @@ export NVM_DIR="$HOME/.nvm"
 
 eval "$(zoxide init zsh)"
 function cd { z "$@" }
+export PATH="$BUN_INSTALL/bin:$HOME/.npm-global/bin:$PATH"
+
